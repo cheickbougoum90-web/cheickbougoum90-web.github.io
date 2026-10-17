@@ -20,31 +20,6 @@
     
     <!-- Your Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- Correctifs d'affichage des projets (peut être déplacé dans style.css) -->
-    <style>
-        /* Titres de catégories : toujours au-dessus des cartes, même quand une carte se soulève au survol */
-        .project-category {
-            position: relative;
-            z-index: 5;
-            font-family: 'Playfair Display', serif;
-            font-size: 1.6rem;
-            margin: 3rem 0 1.5rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 2px solid currentColor;
-            text-align: left;
-        }
-        .project-category:first-of-type { margin-top: 1rem; }
-
-        /* Réserve de l'espace au-dessus des cartes pour l'effet de survol */
-        .projects-grid { position: relative; z-index: 1; padding-top: 14px; }
-
-        /* Image affichée en entier (sans recadrage) */
-        .project-card img.fit-contain {
-            object-fit: contain;
-            background: #ffffff;
-        }
-    </style>
 </head>
 <body>
 
@@ -56,7 +31,7 @@
         <p>Data Engineer | Data Scientist | Data Analyst </p>
         <div class="social-links">
             <!--💡UPDATE: Add your social media links and CV file-->
-            <a href="https://www.linkedin.com/in/che%C3%AFck-abdoul-aziz-bougoum-7264243aa" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="www.linkedin.com/in/cheïck-abdoul-aziz-bougoum-7264243aa" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/cheickbougoum90-web" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
             <a href="assets/CV_BOUGOUM.pdf" download title="Download CV"><i class="fas fa-file-arrow-down"></i></a>
         </div>
@@ -87,19 +62,18 @@
         </div>
     </div>
 </section>
-
 <!-- PROJECTS SECTION -->
 <section id="projects" class="section">
     <div class="container">
         <h2>Mes Projets</h2>
-
+ 
             <!-- ===================== DATA ENGINEER ===================== -->
             <h3 class="project-category">Data Engineer</h3>
             <div class="projects-grid">
-
+ 
                 <!-- Projet 1 -->
                 <div class="project-card">
-                    <img src="assets/images/projects_images/projet-api-airbnb.JPG" alt="Aperçu de l'API Airbnb NYC" class="fit-contain">
+                    <img src="assets/images/projects_images/projet-api-airbnb.JPG" alt="Aperçu de l'API Airbnb NYC">
                     <div class="project-card-content">
                         <h3>API RESTful Airbnb NYC avec MongoDB Atlas</h3>
                         <p>API REST complète (Node.js, Express, Mongoose) connectée à MongoDB Atlas, avec 48 895 logements Airbnb NYC, 10 requêtes dont des pipelines d'agrégation, des index de performance et des tests Postman.</p>
@@ -108,7 +82,7 @@
                         </div>
                     </div>
                 </div>
-
+ 
                 <!-- Projet 2 -->
                 <div class="project-card">
                     <img src="assets/images/projet-pipeline-distribue.jpg" alt="Aperçu du pipeline de données distribuées">
@@ -120,7 +94,7 @@
                         </div>
                     </div>
                 </div>
-
+ 
                 <!-- Projet 3 -->
                 <div class="project-card">
                     <img src="assets/images/projet-hadoop-hive.jpg" alt="Aperçu de l'analyse Big Data Hadoop et Hive">
@@ -132,7 +106,7 @@
                         </div>
                     </div>
                 </div>
-
+ 
                 <!-- Projet 4 -->
                 <div class="project-card">
                     <img src="assets/images/projet-vmware-esxi.jpg" alt="Aperçu de l'administration VMware ESXi">
@@ -144,7 +118,7 @@
                         </div>
                     </div>
                 </div>
-
+ 
                 <!-- Projet 5 -->
                 <div class="project-card">
                     <img src="assets/images/projet-mongodb-neo4j.jpg" alt="Aperçu du projet MongoDB et Neo4j">
@@ -156,13 +130,13 @@
                         </div>
                     </div>
                 </div>
-
+ 
             </div>
-
+ 
             <!-- ===================== DATA SCIENTIST ===================== -->
             <h3 class="project-category">Data Scientist</h3>
             <div class="projects-grid">
-
+ 
                 <!-- Projet 6 -->
                 <div class="project-card">
                     <img src="assets/images/projet-fraude-mobile-money.jpg" alt="Aperçu du projet de détection de fraude Mobile Money">
@@ -174,7 +148,7 @@
                         </div>
                     </div>
                 </div>
-
+ 
                 <!-- Projet 7 -->
                 <div class="project-card">
                     <img src="assets/images/projet-detection-requins.jpg" alt="Aperçu du projet de détection de requins">
@@ -186,7 +160,7 @@
                         </div>
                     </div>
                 </div>
-
+ 
                 <!-- Projet 8 -->
                 <div class="project-card">
                     <img src="assets/images/projet-ia-usb.jpg" alt="Aperçu du projet d'IA portable sur clé USB">
@@ -198,13 +172,13 @@
                         </div>
                     </div>
                 </div>
-
+ 
             </div>
-
+ 
             <!-- ===================== DATA ANALYST ===================== -->
             <h3 class="project-category">Data Analyst</h3>
             <div class="projects-grid">
-
+ 
                 <!-- Projet 9 -->
                 <div class="project-card">
                     <img src="assets/images/projet-sid-agricole.jpg" alt="Aperçu du Système d'Information Décisionnel Agricole">
@@ -216,7 +190,7 @@
                         </div>
                     </div>
                 </div>
-
+ 
                 <!-- Projet 10 -->
                 <div class="project-card">
                     <img src="assets/images/projet-sen-healthmap.jpg" alt="Aperçu du projet SEN-HealthMap">
@@ -228,69 +202,21 @@
                         </div>
                     </div>
                 </div>
-
+ 
             </div>
-
+ 
     </div>
 </section>
+ 
 
-<!-- SKILLS SECTION -->
-<section id="skills" class="section">
-    <div class="container">
-        <h2>Technical Skillset</h2>
-        <div class="skills-table">
-            
-            <!-- Column 1: Data Engineering -->
-            <div class="skill-column">
-                <div class="skill-header">
-                    <i class="fas fa-database"></i>
-                    <h3>Data Engineering</h3>
-                </div>
-                <ul class="skill-list">
-                    <li>SQL (Oracle), MongoDB, Neo4j</li>
-                    <li>Hadoop (HDFS, YARN), Hive, Spark</li>
-                    <li>ETL, Data Warehouse</li>
-                    <li>Docker, AWS, VMware ESXi</li>
-                </ul>
-            </div>
-
-            <!-- Column 2: Data Science & IA -->
-            <div class="skill-column">
-                <div class="skill-header">
-                    <i class="fas fa-brain"></i>
-                    <h3>Data Science & IA</h3>
-                </div>
-                <ul class="skill-list">
-                    <li>Python, Machine Learning</li>
-                    <li>Gradient Boosting (PR AUC)</li>
-                    <li>YOLO, CVAT (Computer Vision)</li>
-                    <li>LLMs en local, Systèmes experts</li>
-                </ul>
-            </div>
-
-            <!-- Column 3: Data Analysis & BI -->
-            <div class="skill-column">
-                <div class="skill-header">
-                    <i class="fas fa-chart-pie"></i>
-                    <h3>Data Analysis & BI</h3>
-                </div>
-                <ul class="skill-list">
-                    <li>Power BI</li>
-                    <li>Tableau</li>
-                    <li>Modélisation de données</li>
-                    <li>Microsoft 365</li>
-                </ul>
-            </div>
-
-        </div>
-    </div>
-</section>
+                        <!--💡UPDATE: Customize your skills in each category-->            <!-- Column 1: Data Visualization -->            <div class="skill-column">                <div class="skill-header">                    <i class="fas fa-chart-pie"></i>                    <h3>Data Visualization</h3>                </div>                <ul class="skill-list">                    <li>Power BI</li>                    <li>Tableau</li>                    <li>Looker Studio</li>                    <li>Excel Dashboards</li>                </ul>            </div>             <!-- Column 2: Data Analysis -->            <div class="skill-column">                <div class="skill-header">                    <i class="fas fa-search-plus"></i>                    <h3>Data Analysis</h3>                </div>                <ul class="skill-list">                    <li>SQL</li>                    <li>Advanced Excel</li>                    <li>Python (Pandas)</li>                    <li>Google Sheets</li>                </ul>            </div>             <!-- Column 3: Data Modeling & ETL -->            <div class="skill-column">                <div class="skill-header">                    <i class="fas fa-cogs"></i>                    <h3>Data Modeling & ETL</h3>                </div>                <ul class="skill-list">                    <li>Power Query (M)</li>                    <li>DAX</li>                    <li>Star Schema Design</li>                    <li>ETL Processes</li>                </ul>            </div>         </div>    </div></section>
 
 <!-- CONTACT FORM SECTION -->
 <section id="contact" class="section">
     <div class="container">
         <h2>Send me a message</h2>
         
+        <!--💡UPDATE: Go to formsubmit.co and replace the email with your own-->
         <form action="https://formsubmit.co/cheickbougoum90@gmail.com" method="POST" class="contact-form">
             <p> Interested in collaborating or have questions about my work? I'd love to hear from you!</p>
 
@@ -322,6 +248,7 @@
 <!-- FOOTER -->
 <footer>
     <div class="container">
+        <!--💡UPDATE: Change the year and your name-->
         <p>&copy; 2026 Cheïck Abdoul Aziz BOUGOUM. All rights reserved.</p>
     </div>
 </footer>
