@@ -1,82 +1,91 @@
-# Salut, je suis BOUGOUM Cheïck Abdoul Aziz
+# Portfolio de Cheïck Abdoul Aziz BOUGOUM
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=450&lines=Data+Engineer;Data+Scientist;Data+Analyst" alt="Typing SVG" />
-</div>
+**Data Engineer · Data Scientist · Data Analyst**
 
-<p align="center">
-  <a href="https://linkedin.com/in/che%C3%AFck-abdoul-aziz-bougoum-7264243aa"><img src="https://img.shields.io/badge/LinkedIn-Me_contacter-0A66C2?style=for-the-badge&logo=linkedin"></a>
-  <a href="https://github.com/cheickbougoum90-web"><img src="https://img.shields.io/badge/GitHub-Mon_profil-181717?style=for-the-badge&logo=github"></a>
-  <a href="mailto:cheickbougoum90@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-green?style=for-the-badge&logo=gmail"></a>
-  <a href="https://cheickbougoum90-web.github.io/"><img src="https://img.shields.io/badge/Portfolio-Découvrir-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
-</p>
+Site portfolio d'une page, hébergé gratuitement avec GitHub Pages : **[cheickbougoum90-web.github.io](https://cheickbougoum90-web.github.io/)**
 
----
+Je suis élève ingénieur en dernière année à l'ESMT Dakar (spécialité Données et Intelligence Artificielle), basé à Dakar. Ce site présente mes projets, classés en trois profils, mes compétences techniques et un formulaire de contact.
 
-## 🚀 À propos de moi
+## À propos de ce portfolio
 
-Élève ingénieur en dernière année à l'**ESMT Dakar** (École Supérieure Multinationale des Télécommunications), spécialisé en **Données et Intelligence Artificielle (InDIA)**. Je suis basé à Dakar, au Sénégal, avec des attaches au Burkina Faso.
+Le site montre ma chaîne de valeur de la donnée, du stockage à la décision :
+- **Stockage et ingénierie** : bases SQL et NoSQL, bases réparties, réplication, Big Data, virtualisation.
+- **Science des données** : modèles de gradient boosting, vision par ordinateur, scoring, modèles de langage en local.
+- **Analyse décisionnelle** : ETL, data warehouse, indicateurs et cartographie.
 
-* **Bases de données & Data Engineering :** Conception, administration et optimisation de bases SQL et NoSQL (MongoDB, Neo4j, PostgreSQL, MySQL), pipelines ETL et architectures Data Warehouse.
-* **Data Analytics & BI :** Transformation de données brutes en indicateurs décisionnels via **Power BI** et **Tableau** (notamment sur des données agricoles du Sénégal).
-* **Machine Learning & Deep Learning :** Modèles de Gradient Boosting optimisés (PR AUC) pour la détection de fraude, Computer Vision avec **YOLO**, et déploiement/quantification locale de LLMs sur matériel contraint.
+Chaque carte de projet renvoie vers un dépôt GitHub avec son README, ses scripts et son rapport, quand le dépôt est publié.
 
----
+## 🚀 Projets
 
-## 🔭 Sur quoi je travaille actuellement
+### Data Engineer
 
-- 💾 **IA portable sur clé USB :** Modèle de langage embarqué tournant depuis une clé USB sans installation ni cloud pour l'assistance bureautique déconnectée (confidentialité & zones à faible connectivité).
-- 🦈 **Détection de requins (Vision) :** Détection d'objets avec YOLO entraîné sur Google Colab, avec un workflow d'annotation sous CVAT.
-- 🏥 **SEN-HealthMap :** Indice composite de vulnérabilité sanitaire (ITVS) et cartographie géospatiale pour l'ANSD Hackathon 2026.
+| Projet | Technologies | Dépôt |
+| --- | --- | --- |
+| API RESTful Airbnb NYC | Node.js, Express, Mongoose, MongoDB Atlas | [airbnb-api](https://github.com/cheickbougoum90-web/airbnb-api) |
+| ReplicaSet MongoDB : haute disponibilité et failover | MongoDB, mongosh, services Windows | [mongodb-replicaset-haute-disponibilite](https://github.com/cheickbougoum90-web/mongodb-replicaset-haute-disponibilite) |
+| Base de données répartie Oracle : fragmentation et Database Links | Oracle, SQL*Plus | [oracle-bdr-fragmentation-dblinks](https://github.com/cheickbougoum90-web/oracle-bdr-fragmentation-dblinks) |
+| Traitement batch et streaming avec Apache Spark sur YARN (TP guidé) | Spark, Hadoop YARN, Docker, Java, Scala | [spark-batch-streaming-yarn-docker](https://github.com/cheickbougoum90-web/spark-batch-streaming-yarn-docker) |
+| Infrastructure de virtualisation VMware ESXi 6.5 (projet d'équipe) | VMware ESXi, RAID 5, Dell PowerEdge | [esxi65-install-raid5-dell-r720](https://github.com/cheickbougoum90-web/esxi65-install-raid5-dell-r720) |
+| Analyse Big Data de ventes | Hadoop, Hive, HiveQL, Python | Dépôt à venir |
+| Bases NoSQL : MongoDB et Neo4j | MongoDB, Neo4j | Dépôt à venir |
 
----
+### Data Scientist
 
-## 🌱 Ce que j'apprends en ce moment
+| Projet | Technologies | Dépôt |
+| --- | --- | --- |
+| Scoring du risque de crédit (en cours) | Python, XGBoost, SHAP, FastAPI, Docker | [credit-risk-scoring](https://github.com/cheickbougoum90-web/credit-risk-scoring) |
+| Détection de fraude Mobile Money (DataTour 2026) | Gradient boosting, PR AUC | Dépôt à venir |
+| Détection de requins par vision par ordinateur (en cours) | YOLO, CVAT, Google Colab | Dépôt à venir |
+| IA portable sur clé USB (en cours) | LLM local, OCR, outils déterministes | Dépôt à venir |
 
-- 📜 Certification **Data Engineer** (en cours).
-- 👁️ Vision par ordinateur avancée et fine-tuning de modèles YOLO.
-- ⚡ Inférence locale optimisée de LLMs (`llama.cpp`, quantification GGUF/ExLlama) sur matériel modeste.
+### Data Analyst
 
----
+| Projet | Technologies | Dépôt |
+| --- | --- | --- |
+| Système d'Information Décisionnel Agricole | ETL, data warehouse | Dépôt à venir |
+| SEN-HealthMap (ANSD Hackathon 2026) | Indice composite, cartographie géospatiale | Dépôt à venir |
 
-## 🛠️ Compétences techniques
+## 🛠️ Compétences
 
-#### Bases de données & Stockage
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=flat&logo=neo4j&logoColor=white)
-![ReplicaSet](https://img.shields.io/badge/ReplicaSet-Bases_réparties-13AA52?style=flat)
+- **Data Engineering** : SQL (Oracle), MongoDB, Neo4j, Hadoop (HDFS, YARN), Hive, Spark, ETL et data warehouse, Docker, AWS, VMware ESXi.
+- **Data Science et IA** : Python, machine learning, gradient boosting (PR AUC), YOLO et CVAT, modèles de langage en local, systèmes experts.
+- **Data Analysis et BI** : Power BI, Tableau, modélisation de données, Microsoft 365.
 
-#### Data Engineering, Big Data & Cloud
-![Apache Hadoop](https://img.shields.io/badge/Hadoop-HDFS_%2B_YARN-66CCFF?style=flat&logo=apachehadoop&logoColor=black)
-![Apache Hive](https://img.shields.io/badge/Apache%20Hive-FDEE21?style=flat&logo=apachehive&logoColor=black)
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![ETL/DWH](https://img.shields.io/badge/ETL-Data_Warehouse-45B7D1?style=flat)
+## 📁 Structure du dépôt
 
-#### IA, ML & Data Analytics
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-Computer_Vision-00FFFF?style=flat)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
-![CVAT](https://img.shields.io/badge/CVAT-Labellisation-2E9EF7?style=flat)
+```
+cheickbougoum90-web.github.io/
+├── index.html                  Page unique du site
+├── favicon-32x32.png           Icône de l'onglet
+└── assets/
+    ├── css/style.css           Styles (palette « Modern Tech »)
+    ├── js/main.js              Scripts de la page
+    ├── CV_BOUGOUM.pdf          CV téléchargeable depuis l'en-tête
+    └── images/
+        ├── image_profil.JPEG   Photo de profil
+        └── projects_images/    Aperçus des cartes de projets
+```
 
-#### Langages, Web & Dev
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+## 💻 Tester le site en local
 
-#### Réseaux & Infrastructure
-![VMware](https://img.shields.io/badge/VMware-ESXi_6.5-607078?style=flat&logo=vmware&logoColor=white)
-![5G](https://img.shields.io/badge/5G-Open5GS-0A66C2?style=flat)
-![SDN](https://img.shields.io/badge/SDN-Mininet_%2B_Floodlight-FF6B6B?style=flat)
+```bash
+git clone https://github.com/cheickbougoum90-web/cheickbougoum90-web.github.io.git
+cd cheickbougoum90-web.github.io
+python -m http.server 8000
+```
+
+Ouvrir ensuite `http://localhost:8000`. Après un `git push` sur la branche `main`, GitHub Pages met le site à jour en quelques minutes.
+
+## ✏️ Ajouter un projet
+
+1. Déposer l'image d'aperçu dans `assets/images/projects_images/`. GitHub Pages distingue les majuscules : `.JPG` et `.jpg` sont deux noms différents.
+2. Copier une carte `project-card` dans la bonne catégorie de `index.html`, puis renseigner le titre, la description et le lien du dépôt.
+3. Pour afficher un schéma ou une capture en entier, garder la classe `fit-contain` sur l'image.
+
+## 📬 Contact
+
+[LinkedIn](https://linkedin.com/in/che%C3%AFck-abdoul-aziz-bougoum-7264243aa) · [GitHub](https://github.com/cheickbougoum90-web) · cheickbougoum90@gmail.com
+
+## Crédits
+
+Le site est construit à partir d'un modèle de portfolio pour GitHub Pages, adapté et complété avec mes projets, mes textes et mes visuels.
