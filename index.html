@@ -69,8 +69,7 @@
     <div class="container">
         <h2>Mes Projets</h2>
 
-            <!-- ===================== DATA ENGINEER ===================== -->
-            <!-- <h3 class="project-category">Data Engineer</h3> -->
+            <!-- Une seule grille : les projets restent classés par profil (Data Engineer, puis Data Scientist, puis Data Analyst) -->
             <div class="projects-grid">
 
                 <!-- Projet 1 -->
@@ -127,18 +126,16 @@
                     <img src="assets/images/projects_images/projet-mongodb-replicaset.jpg" alt="Sortie rs.status() du ReplicaSet MongoDB (Primary, Secondary, Arbiter)" class="fit-contain">
                     <div class="project-card-content">
                         <h3>Haute disponibilité avec un ReplicaSet MongoDB (projet d'équipe)</h3>
-                        <p>Étude et déploiement d'un ReplicaSet MongoDB 8.2.6 sous Windows 11 : 3 nœuds de données et 1 arbitre, démarrés comme services Windows. Tests de réplication, de failover automatique (élection d'un nouveau Primary en 10 à 30 s), de réintégration d'un nœud via l'oplog et de lecture sur les Secondaries. Projet réalisé à 3 à l'ESMT.</p>
+                        <p>Étude et déploiement d'un ReplicaSet MongoDB 8.2.6 sous Windows 11 : 3 nœuds de données et une instance arbitre, démarrés comme services Windows. Tests de réplication, de failover automatique (élection d'un nouveau Primary après la panne du Primary) et de réintégration d'un nœud via l'oplog. Projet réalisé à 3 à l'ESMT.</p>
                         <div class="project-buttons">
                             <a href="https://github.com/cheickbougoum90-web/mongodb-replicaset" target="_blank" class="btn">Documentation</a>
                         </div>
                     </div>
                 </div>
 
-            </div>
+            
+                <!-- ===== Profil Data Scientist ===== -->
 
-            <!-- ===================== DATA SCIENTIST ===================== -->
-            <h3 class="project-category">Data Scientist</h3>
-            <div class="projects-grid">
                 <!-- Projet actuel : scoring du risque de crédit -->
                 <div class="project-card">
                     <img src="assets/images/projects_images/projet-credit-risk-scoring.JPG" alt="Taux de défaut selon les variables numériques du jeu de données de crédit" class="fit-contain">
@@ -187,11 +184,8 @@
                     </div>
                 </div>
 
-            </div>
-
-            <!-- ===================== DATA ANALYST ===================== -->
-            <h3 class="project-category">Data Analyst</h3>
-            <div class="projects-grid">
+            
+                <!-- ===== Profil Data Analyst ===== -->
 
                 <!-- Projet 9 -->
                 <div class="project-card">
